@@ -9,4 +9,6 @@ class CIPSColor {
   static Color get textSecondaryColor => const Color(0xff626E7A);
 
   static Color get backgroundColor => const Color(0xffD8F7FE);
+
+  static Color get filledBackgroundInputColor => const Color(0xffF3F7FB);
 }

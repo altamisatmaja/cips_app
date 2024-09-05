@@ -2,6 +2,8 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui; // Import for capturing widget images
+import 'package:cips_app/ui/widgets/widget.dart';
+import 'package:cips_app/utils/util.dart';
 import 'package:flutter/rendering.dart'; // Import for RepaintBoundary
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
@@ -25,3 +27,5 @@ import 'package:permission_handler/permission_handler.dart';
 part 'start/welcome_screen.dart';
 part 'capture/capture_screen.dart';
 part 'configure/configure_screen.dart';
+part 'auth/sign_in_screen.dart';
+part 'auth/sign_up_screen.dart';

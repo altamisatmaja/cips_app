@@ -142,26 +142,26 @@ flutter:
 
 flutter_native_splash:
   color: "#8672E7"
-  image: "assets/icons/splash-cips-icon.png"
+  image: "assets/icons/splash-cips-icon_3x.png"
   android_12:
-    image: assets/icons/splash-cips-icon.png
+    image: assets/icons/splash-cips-icon_3x.png
     color: "#8672E7"
   web: false
 
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icons/icon-cips.png"
+  image_path: "assets/icons/icon-v2.png"
   min_sdk_android: 21
   web:
     generate: true
-    image_path: "assets/icons/icon-cips.png"
+    image_path: "assets/icons/icon-v2.png"
     background_color: "#8672E7"
     theme_color: "#8672E7"
   windows:
     generate: true
-    image_path: "assets/icons/icon-cips.png"
+    image_path: "assets/icons/icon-v2.png"
     icon_size: 48
   macos:
     generate: true
-    image_path: "assets/icons/icon-cips.png"
+    image_path: "assets/icons/icon-v2.png"
