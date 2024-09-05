@@ -1,5 +1,7 @@
+import 'package:cips_app/data/blocs/bloc.dart';
 import 'package:cips_app/utils/util.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() async {
@@ -14,6 +16,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     FlutterNativeSplash.remove();
-    return CIPSMaterialApp.theme;
+    return MultiBlocProvider(providers: [
+      BlocProvider<HomeScreenBloc>(
+        create: (context) {
+          final bloc = HomeScreenBloc();
+          bloc.add(SetHomeScreenState());
+          return bloc;
+        },
+      ),
+    ], child: CIPSMaterialApp.theme);
   }
 }

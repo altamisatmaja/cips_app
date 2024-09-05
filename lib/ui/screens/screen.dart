@@ -29,3 +29,7 @@ part 'capture/capture_screen.dart';
 part 'configure/configure_screen.dart';
 part 'auth/sign_in_screen.dart';
 part 'auth/sign_up_screen.dart';
+part 'home/home_screen.dart';
+part 'fragment/configure_fragment.dart';
+part 'fragment/home_fragment.dart';
+part 'fragment/profile_fragment.dart';
